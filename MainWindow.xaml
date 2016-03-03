@@ -1,0 +1,62 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="New Client Records" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.237,0.154" FontSize="14" FontWeight="Bold"/>
+            <Label Content="Name" HorizontalAlignment="Left" Margin="31,45,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.357,0.577"/>
+            <Label Content="Address" HorizontalAlignment="Left" Margin="20,71,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.019,0.5"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="36"/>
+            <Label Content="Birthdate" HorizontalAlignment="Left" Margin="10,193,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,196,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Phone" HorizontalAlignment="Left" Margin="24,224,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,227,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Email" HorizontalAlignment="Left" Margin="30,255,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="73,258,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Insurance Information" HorizontalAlignment="Left" Margin="231,22,0,0" VerticalAlignment="Top" FontWeight="Bold"/>
+            <Label Content="Company Name" HorizontalAlignment="Left" Margin="236,45,0,0" VerticalAlignment="Top"/>
+            <Label Content="Address" HorizontalAlignment="Left" Margin="279,73,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.026,-0.077"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="332,48,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="332,76,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="332,104,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" RenderTransformOrigin="0.842,-0.565"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="332,132,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="35"/>
+            <Label Content="Member ID" HorizontalAlignment="Left" Margin="257,164,0,0" VerticalAlignment="Top"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="332,167,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+            <Label Content="Reason for Visit" HorizontalAlignment="Left" Margin="236,227,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="Male" HorizontalAlignment="Left" Margin="73,167,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="Female" HorizontalAlignment="Left" Margin="136,167,0,0" VerticalAlignment="Top"/>
+            <ComboBox HorizontalAlignment="Left" Margin="332,228,0,0" VerticalAlignment="Top" Width="120" Text="Choose a Reason">
+                <ComboBoxItem Content="Diagnostics"/>
+                <ComboBoxItem Content="Preventive Care"/>
+                <ComboBoxItem Content="Minor Restoration"/>
+                <ComboBoxItem Content="Major Restoration"/>
+                <ComboBoxItem Content="Orthodontia"/>
+            </ComboBox>
+            <Button Content="Submit" HorizontalAlignment="Left" Margin="292,271,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button Content="Close" HorizontalAlignment="Left" Margin="377,271,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+            <Label Content="State" HorizontalAlignment="Left" Margin="31,131,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.892,0.538"/>
+            <Label Content="Zip" HorizontalAlignment="Left" Margin="114,129,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.474,0.038"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="146,133,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="47"/>
+            <Label Content="City" HorizontalAlignment="Left" Margin="38,103,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.167,0.5">
+                <Label.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.256"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Label.RenderTransform>
+            </Label>
+            <Label Content="City" HorizontalAlignment="Left" Margin="302,101,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.033,0.5"/>
+            <Label Content="State" HorizontalAlignment="Left" Margin="295,130,0,0" VerticalAlignment="Top"/>
+            <Label Content="Zip" HorizontalAlignment="Left" Margin="372,130,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.704,1.038"/>
+            <TextBox HorizontalAlignment="Left" Height="23" Margin="404,134,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48"/>
+
+        </Grid>
+
+    </Grid>
+</Window>
